@@ -1,17 +1,84 @@
-﻿using ExemploPOO.Models;
+﻿using ExemploPOO.Interfaces;
+using ExemploPOO.Models;
 
-Aluno a1 = new Aluno();
-a1.Nome = "Eduardo";
-a1.Idade = 30;
-a1.Email = "teste@hotmail.com";
-a1.Nota = 10;
-a1.Apresentar();
+ICalculadora calc = new Calculadora();
 
-Professor p1 = new Professor();
-p1.Nome = "Leonardo";
-p1.Idade = 20;
-p1.Salario = 1000;
-p1.Apresentar();
+Console.WriteLine(calc.multiplicar(3,9));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Computador c = new Computador();
+// Console.WriteLine(c.ToString());
+
+
+
+
+
+
+
+
+
+// Pessoa p1 = new Pessoa("Eduardo");
+// Aluno a1 = new Aluno("Leonardo");
+// a1.Apresentar();
+// Professor prof = new Professor();
+
+
+
+
+
+
+
+
+
+
+
+
+// Corrente c = new Corrente();
+// c.Creditar(500);
+// c.ExibirSaldo();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Aluno a1 = new Aluno();
+// a1.Nome = "Eduardo";
+// a1.Idade = 30;
+// a1.Email = "teste@hotmail.com";
+// a1.Nota = 10;
+// a1.Apresentar();
+
+// Professor p1 = new Professor();
+// p1.Nome = "Leonardo";
+// p1.Idade = 20;
+// p1.Salario = 1000;
+// p1.Apresentar();
 
 
 
