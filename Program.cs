@@ -1,12 +1,27 @@
-﻿using ExemploPOO.Models;
+﻿using ExemploPOO.Interfaces;
+using ExemploPOO.Models;
 
-Computador c = new Computador();
-Console.WriteLine(c.ToString());
+ICalculadora calc = new Calculadora();
+
+Console.WriteLine(calc.multiplicar(3,9));
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+// Computador c = new Computador();
+// Console.WriteLine(c.ToString());
 
 
 
