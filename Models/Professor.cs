@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace ExemploPOO.Models
 {
-    public sealed class Professor : Pessoa
+    public class Professor : Pessoa
     {
         public Professor()
         {
